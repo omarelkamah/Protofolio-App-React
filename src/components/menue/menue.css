@@ -1,0 +1,33 @@
+.menue {
+  width: 300px;
+  position: fixed;
+  z-index: 2;
+  right: -100%;
+  background: #15023a;
+  height: 100%;
+  color: white;
+  transition: 1s ease;
+}
+
+.menue.active {
+    right: 0;
+}
+
+.menue .list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    list-style: none;
+
+}
+
+.menue .list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 21px;
+    font-weight: 300;
+
+}

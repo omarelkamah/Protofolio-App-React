@@ -1,0 +1,92 @@
+.protofolio {
+    background-color: white;
+}
+
+@media (max-width: 1150px) {
+    .protofolio {
+        height: 100% !important;
+        margin-bottom: 35px;
+
+    }
+}
+
+
+.protofolio .section-title {
+    text-align: center;
+    font-size: 28px;
+    color: #15023a;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.protofolio .section-title h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.protofolio .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .protofolio .list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+.protofolio .container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.protofolio .container .item {
+    width: 250px;
+    height: 165px;
+    margin-bottom: 3%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.protofolio .container .item:hover {
+    background-color: #15023a;
+    opacity: .9;
+}
+.protofolio .container .item:hover img {opacity: .1;}
+
+.protofolio .container .item img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+
+.protofolio .container .item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-transform: capitalize;
+    font-size: 22px;
+    color: white;
+    z-index: -1;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+
+}

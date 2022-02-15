@@ -1,0 +1,22 @@
+.protofolio .list li {
+    color: #15023a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: .3s ;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .protofolio .list li {
+        margin: 0;
+    }
+}
+
+
+.protofolio .list li.active,
+.protofolio .list li:hover {
+    background-color: #15023a;
+    color: white;
+}
